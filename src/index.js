@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const Koa = require('koa');
 const Router = require('koa-router');
 
@@ -5,23 +7,33 @@ const app = new Koa();
 const router = new Router();
 const api = require('./api');
 
+const mongoose = require('mongoose');
+const bodyParser = require('koa-bodyparser');
+
+mongoose.Promise = global.Promise;
+
+mongoose
+  .connect(process.env.MONGO_URI, { useNewUrlParser: true })
+  .then(response => {
+    console.log('successfully connected to mongodb');
+  })
+  .catch(e => {
+    console.error(e);
+  });
+
+const port = process.env.PORT || 4000;
+
+app.use(bodyParser());
+
 router.use('/api', api.routes());
 
 router.get('/', (ctx, next) => {
-  ctx.body = 'Hello World!';
+  ctx.body = 'Home';
   next();
 });
 
-router.get('/genius/:who', ctx => {
-  const { who } = ctx.params;
-  const { age } = ctx.query;
-  let string = who ? `Yes, ${who} is genius!` : 'I am Genius';
-  string += age ? ` and I am ${age}` : '';
-  ctx.body = string;
-});
+app.use(router.routes()).use(router.allowedMethods());
 
-app.use(router.routes());
-
-app.listen(4002, () => {
-  console.log('Koa is listening to port 4002');
+app.listen(port, () => {
+  console.log('Koa is listening to port ' + port);
 });
