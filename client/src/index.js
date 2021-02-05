@@ -7,5 +7,14 @@ import configureStore from './redux/configureStore';
 
 const store = configureStore();
 
-ReactDOM.render(<Root store={store} />, document.getElementById('root'));
+const render = Component => {
+  ReactDOM.render(<Component store={store} />, document.getElementById('root'));
+};
+
+render(Root);
+
+if (module.hot) {
+  module.hot.accept('./Root', () => render(Root));
+}
+
 registerServiceWorker();
