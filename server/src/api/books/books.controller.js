@@ -145,6 +145,5 @@ exports.update = async ctx => {
   } catch (e) {
     return ctx.throw(500, e);
   }
-
   ctx.body = book;
 };

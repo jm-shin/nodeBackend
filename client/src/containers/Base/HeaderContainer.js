@@ -24,7 +24,7 @@ class HeaderContainer extends Component {
 
     return (
       <Header>
-        {user.get('logged') ? (
+        {user ? (
           <div>
             {user.getIn(['loggedInfo', 'username'])}{' '}
             <div onClick={this.handleLogout}>(로그아웃)</div>

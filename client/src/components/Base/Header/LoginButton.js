@@ -21,12 +21,13 @@ const BorderedButton = styled(Link)`
   }
   &:active {
     /* 마우스 클릭시 아래로 미세하게 움직임 */
+    /** dksd;qpv/
     transform: translateY(3px);
   }
 `;
 
 const LoginButton = () => (
-  <BorderedButton to="/auth/login">로그인 / 가입</BorderedButton>
+  <BorderedButton to="/auth/login">로그인</BorderedButton>
 );
 
 export default LoginButton;

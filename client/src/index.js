@@ -4,7 +4,6 @@ import Root from './Root';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 import configureStore from './redux/configureStore';
-import { AppContainer } from 'react-hot-loader';
 import socket from './lib/socket';
 
 const store = configureStore();
@@ -20,12 +19,7 @@ const socketURI =
 socket.initialize(store, socketURI);
 
 const render = Component => {
-  ReactDOM.render(
-    <AppContainer>
-      <Component store={store} />
-    </AppContainer>,
-    document.getElementById('root')
-  );
+  ReactDOM.render(<Component store={store} />, document.getElementById('root'));
 };
 
 render(Root);
