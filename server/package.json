@@ -20,7 +20,8 @@
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
-    "mongoose": "^5.11.14"
+    "mongoose": "^5.11.14",
+    "prettier": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
