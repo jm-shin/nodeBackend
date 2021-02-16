@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const {
-  Types: { ObjectId }
+  Types: { ObjectId },
 } = require('mongoose');
 
 exports.replace = async ctx => {
@@ -17,12 +17,12 @@ exports.replace = async ctx => {
     authors: Joi.array().items(
       Joi.object().keys({
         name: Joi.string().required(),
-        email: Joi.string().email().required()
-      })
+        email: Joi.string().email().required(),
+      }),
     ),
     publishedDate: Joi.date().required(),
     price: Joi.number().required(),
-    tags: Joi.array().items(Joi.string()).required()
+    tags: Joi.array().items(Joi.string()).required(),
   });
 
   const result = schema.validate(ctx.request.body);

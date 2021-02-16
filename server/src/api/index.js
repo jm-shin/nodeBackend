@@ -1,12 +1,9 @@
-const Router = require('koa-router');
+import Router from 'koa-router';
+import posts from './posts';
 
 const api = new Router();
-const posts = require('./posts');
-const books = require('./books');
-const auth = require('./auth');
 
 api.use('/posts', posts.routes());
-api.use('/books', books.routes());
-api.use('/auth', auth.routes());
 
-module.exports = api;
+// 라우터를 내보냅니다.
+export default api;
