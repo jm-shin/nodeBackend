@@ -7,7 +7,7 @@
     "start": "cross-env NODE_PATH=src node -r esm src",
     "start:dev": "cross-env NODE_PATH=src nodemon --watch src/ -r esm src/index.js"
   },
-  "author": "jm.shin@pointi.com",
+  "author": "sample",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
