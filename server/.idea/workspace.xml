@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3633bcd-fcef-4c04-a2df-60781d214427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/jwtMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/checkLoggedIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/auth/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/posts/posts.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts/posts.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <updated>1613454876301</updated>
       <workItem from="1613454877410" duration="82000" />
       <workItem from="1613466307568" duration="2727000" />
-      <workItem from="1613523354652" duration="9374000" />
+      <workItem from="1613523354652" duration="13924000" />
     </task>
     <servers />
   </component>

@@ -4,23 +4,42 @@ import Joi from 'joi';
 
 const { ObjectId } = mongoose.Types;
 
-export const checkObjectId = (ctx, next) => {
+export const getPostById = async (ctx, next) => {
   const { id } = ctx.params;
   if (!ObjectId.isValid(id)) {
     ctx.status = 400; //bad request.
     return;
   }
+  try {
+    const post = await Post.findById(id);
+    if (!post) {
+      ctx.status = 404;
+      return;
+    }
+    ctx.state.post = post;
+  } catch (error) {
+    ctx.throw(500, error);
+  }
   return next();
 };
 
-/*
+export const checkOwnPost = async (ctx, next) => {
+  const { user, post } = ctx.state;
+  if (post.user._id.toString() !== user._id) {
+    ctx.status = 403;
+    return;
+  }
+  return next();
+};
+
+/**
 POST /api/posts
 */
 export const write = async ctx => {
   const schema = Joi.object({
     title: Joi.string().required(),
     body: Joi.string().required(),
-    tags: [Joi.string().required()],
+    tags: Joi.array().items(Joi.string().required()),
   });
 
   const result = schema.validate(ctx.request.body);
@@ -36,6 +55,7 @@ export const write = async ctx => {
     title,
     body,
     tags,
+    user: ctx.state.user,
   });
 
   try {
@@ -46,7 +66,7 @@ export const write = async ctx => {
   }
 };
 
-/*
+/**
 GET /api/posts
 */
 export const list = async ctx => {
@@ -83,17 +103,7 @@ export const list = async ctx => {
  * GET /api/posts/:id
  */
 export const read = async ctx => {
-  const { id } = ctx.params;
-  try {
-    const post = Post.findById(id).exec();
-    if (!post) {
-      ctx.status = 404;
-      return;
-    }
-    ctx.body = post;
-  } catch (error) {
-    ctx.throw(500, error);
-  }
+  ctx.body = ctx.state.post;
 };
 
 /**
@@ -121,7 +131,7 @@ export const update = async ctx => {
   const schema = Joi.object({
     title: Joi.string(),
     body: Joi.string(),
-    tags: [Joi.string()],
+    tags: Joi.array().items(Joi.string().required()),
   });
 
   const result = schema.validate(ctx.request.body);
@@ -137,7 +147,7 @@ export const update = async ctx => {
   try {
     const post = await Post.findByIdAndUpdate(id, ctx.request.body, {
       new: true, //이 값을 설정하면 업데이트된 데이터를 반환합니다.
-      //false일때는 업데이트 되기전에 데이터를 반환.
+      //false: 업데이트 되기전에 데이터를 반환.
     }).exec();
     if (!post) {
       ctx.status = 404;
