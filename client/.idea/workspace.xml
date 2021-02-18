@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5499c752-6e8d-4e18-8fe4-13f41620ae50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/styles/palette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PostListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PostPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WritePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/AuthButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/AuthContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/AuthError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/AuthWrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/InputWithLabel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/RightAlignedLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/Header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/Header/LoginButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/Header/UserThumbnail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/Header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/HeaderContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/UserMenu/UserMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/UserMenu/UserMenuItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/UserMenu/Username.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Base/UserMenu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Auth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Base/HeaderContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Base/UserMenuContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/styleUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/modules/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/modules/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1odjFbLSNGuhOkJMZPKm4b1GDiR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\82103\Desktop\workspace\nodeBackend" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5499c752-6e8d-4e18-8fe4-13f41620ae50" name="Default Changelist" comment="" />
+      <created>1613623259076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613623259076</updated>
+      <workItem from="1613623260117" duration="8368000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="704" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613623391217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="704" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613623391217" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613629511243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613629511243" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1613629514218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613629514218" />
+  </component>
+</project>
