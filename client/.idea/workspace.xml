@@ -20,22 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5499c752-6e8d-4e18-8fe4-13f41620ae50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/auth/AuthForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth/AuthTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth/RegisterForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/auth/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/api/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/createRequestSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/auth/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/AuthForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/RegisterForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/auth/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/auth/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/createRequestSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/createRequestSaga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,8 @@
       <workItem from="1613966504339" duration="40000" />
       <workItem from="1614055290086" duration="3000" />
       <workItem from="1614647453537" duration="164000" />
-      <workItem from="1615169836700" duration="21528000" />
+      <workItem from="1615169836700" duration="22073000" />
+      <workItem from="1615250621534" duration="18312000" />
     </task>
     <servers />
   </component>
@@ -114,6 +113,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613623391217" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615266963083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615266963083" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614647617173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
