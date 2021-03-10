@@ -22,7 +22,8 @@
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
     "mongoose": "^5.11.14",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "sanitize-html": "^2.3.2"
   },
   "devDependencies": {
     "eslint": "^7.20.0",

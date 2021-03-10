@@ -7,8 +7,7 @@ const posts = new Router();
 posts.get('/', postsCtrl.list);
 posts.post('/', checkLoggedIn, postsCtrl.write);
 
-//id 검증 추가.  /api/posts/:id
-const post = new Router();
+const post = new Router(); // /api/posts/:id
 post.get('/', postsCtrl.read);
 post.delete('/', checkLoggedIn, postsCtrl.checkOwnPost, postsCtrl.remove);
 post.patch('/', checkLoggedIn, postsCtrl.checkOwnPost, postsCtrl.update);

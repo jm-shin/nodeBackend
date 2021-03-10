@@ -19,7 +19,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3633bcd-fcef-4c04-a2df-60781d214427" name="Default Changelist" comment="" />
+    <list default="true" id="c3633bcd-fcef-4c04-a2df-60781d214427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/src/components/common/SubInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/common/Tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/post/PostViewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/posts/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/posts/PostList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/write/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/write/TagBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/write/WriteActionButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/common/HeaderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/post/PostViewerContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/posts/PaginationContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/posts/PostListContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/write/EditorContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/write/TagBoxContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/containers/write/WriteActionButtonsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/lib/api/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/modules/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/modules/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/modules/write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/lib/createRequestSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/lib/createRequestSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/PostListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/WritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/WritePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/auth/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/posts/posts.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts/posts.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +92,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +116,9 @@
       <workItem from="1613454877410" duration="82000" />
       <workItem from="1613466307568" duration="2727000" />
       <workItem from="1613523354652" duration="17795000" />
+      <workItem from="1615354412500" duration="1683000" />
+      <workItem from="1615358512476" duration="1389000" />
+      <workItem from="1615360016811" duration="253000" />
     </task>
     <servers />
   </component>

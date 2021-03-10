@@ -6,20 +6,15 @@ const UserSchema = new Schema({
   username: String,
   hashedPassword: String,
 });
-UserSchema.methods.generataToken = function () {
-  const token = jwt.sign(
-    {
-      //payload : 토큰안에 집어 넣고 싶은 데이터
-      _id: this.id,
-      username: this.username,
-    },
-    process.env.JWT_SECRET,
-    {
-      //option: 7일간 유효
-      expiresIn: '7d',
-    },
-  );
-  return token;
+
+UserSchema.methods.setPassword = async function (password) {
+  const hash = await bcrypt.hash(password, 10);
+  this.hashedPassword = hash;
+};
+
+UserSchema.methods.checkPassword = async function (password) {
+  const result = await bcrypt.compare(password, this.hashedPassword);
+  return result; // true / false
 };
 
 UserSchema.methods.serialize = function () {
@@ -28,19 +23,21 @@ UserSchema.methods.serialize = function () {
   return data;
 };
 
-//인스턴스 메서드 작성시 화살표함수 X, function 키워드 사용 O.
-//.methods는 this가 데이터 인스턴스를 가르킴
-UserSchema.methods.setPassword = async function (password) {
-  const hash = await bcrypt.hash(password, 10);
-  this.hashedPassword = hash;
+UserSchema.methods.generateToken = function () {
+  const token = jwt.sign(
+    // 첫번째 파라미터엔 토큰 안에 집어넣고 싶은 데이터를 넣습니다
+    {
+      _id: this.id,
+      username: this.username,
+    },
+    process.env.JWT_SECRET, // 두번째 파라미터에는 JWT 암호를 넣습니다
+    {
+      expiresIn: '7d', // 7일동안 유효함
+    },
+  );
+  return token;
 };
 
-UserSchema.methods.checkPassword = async function (password) {
-  const result = await bcrypt.compare(password, this.hashedPassword);
-  return result; //true or false
-};
-
-//.statics는 this가 모델 자체를 가르킴.
 UserSchema.statics.findByUsername = function (username) {
   return this.findOne({ username });
 };

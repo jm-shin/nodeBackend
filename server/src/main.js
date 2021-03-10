@@ -6,16 +6,14 @@ import mongoose from 'mongoose';
 
 import api from './api';
 import jwtMiddleware from './lib/jwtMiddleware';
-import createFakeData from './createFakeData';
 
 // 비구조화 할당을 통하여 process.env 내부 값에 대한 레퍼런스 만들기
 const { PORT, MONGO_URI } = process.env;
 
 mongoose
-  .connect(MONGO_URI, { useNewUrlParser: true, useFindAndModify: false })
+  .connect(MONGO_URI, { useNewUrlParser: true })
   .then(() => {
-    console.log('Connect to', MONGO_URI);
-    // createFakeData();
+    console.log('Connected to MongoDB');
   })
   .catch(e => {
     console.error(e);
@@ -27,7 +25,7 @@ const router = new Router();
 // 라우터 설정
 router.use('/api', api.routes()); // api 라우트 적용
 
-// 라우터 적용 전에 적용
+// 라우터 적용 전에 bodyParser 적용
 app.use(bodyParser());
 app.use(jwtMiddleware);
 
