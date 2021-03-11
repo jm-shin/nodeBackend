@@ -20,43 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3633bcd-fcef-4c04-a2df-60781d214427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/components/common/SubInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/common/Tags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/post/PostViewer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/posts/Pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/posts/PostList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/write/Editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/write/TagBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/write/WriteActionButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/common/HeaderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/post/PostViewerContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/posts/PaginationContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/posts/PostListContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/write/EditorContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/write/TagBoxContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/containers/write/WriteActionButtonsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/lib/api/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/modules/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/modules/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/modules/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/common/AskModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/post/AskRemoveModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/post/PostActionButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/common/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/lib/createRequestSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/lib/createRequestSaga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/modules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/PostListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/post/PostViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/post/PostViewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/posts/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/posts/PostList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/write/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/write/Editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/write/WriteActionButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/write/WriteActionButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/containers/post/PostViewerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/containers/post/PostViewerContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/containers/write/WriteActionButtonsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/containers/write/WriteActionButtonsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/lib/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/lib/api/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/modules/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/modules/write.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/WritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/WritePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/auth/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/posts/posts.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts/posts.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,10 +79,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\82103\Desktop\workspace\nodeBackend\server\node_modules\prettier" />
@@ -119,6 +107,9 @@
       <workItem from="1615354412500" duration="1683000" />
       <workItem from="1615358512476" duration="1389000" />
       <workItem from="1615360016811" duration="253000" />
+      <workItem from="1615430900564" duration="1195000" />
+      <workItem from="1615435172914" duration="337000" />
+      <workItem from="1615435514589" duration="542000" />
     </task>
     <servers />
   </component>
@@ -141,6 +132,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="827" y="410" key="#ESLint" timestamp="1615434777726">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="410" key="#ESLint/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615434777726" />
     <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1613467640837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -149,10 +144,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="296" key="EditFileWatcherDialog/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613467693663" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613548170903">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1615435511364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613548170903" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615435511364" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1615435109831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615435109831" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1615435109831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615435109831" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1615435109831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615435109831" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1615435109831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-2560.-161.1707.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615435109831" />
     <state x="461" y="167" width="998" height="708" key="SettingsEditor" timestamp="1613467716016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
